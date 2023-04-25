@@ -16,5 +16,12 @@ class Motocicleta extends Vehiculo{
     System.out.println("Motor encendido por una motocicleta");
     return true;
   }
+  public String frenar(int intensidad){
+    return "Se freno con una intensidad de " + intensidad;
+  }
+  @Override
+  public String toString() {
+    return "Clase de Motocicleta <Motocicleta>";
+  } 
 }
 

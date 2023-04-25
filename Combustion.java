@@ -1,5 +1,5 @@
 //#############################################
-class Combustion{
+class Combustion extends Automovil{
   public String marca;
   public String modelo;
   public int year;
@@ -42,5 +42,9 @@ class Combustion{
       return "La cajuela ya esta cerrada";
     }
     return "Cerrando cajuela";
+  }
+  @Override
+  public String toString() {
+    return "Clase Automovil de Combustion <Combustion>";
   }
 }

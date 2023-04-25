@@ -1,5 +1,7 @@
+import javax.swing.text.html.HTMLDocument.BlockElement;
+
 //#############################################
-abstract class Automovil{
+abstract class Automovil extends Vehiculo{
   public boolean aireAcondicionado;
   public int asientos;
   public int intermitentes; 
@@ -16,5 +18,12 @@ abstract class Automovil{
   }
   public String abrirPuertas(){
     return "Las puertas has sido abiertas";
+  }
+  public boolean encenderMotor(){ 
+    return true;
+  }
+  @Override
+  public String toString() {
+      return "Clase automovil <Automovil>";
   }
 }

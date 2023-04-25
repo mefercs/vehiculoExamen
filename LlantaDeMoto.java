@@ -7,6 +7,10 @@ class LlantaDeMoto{
   public String ajustarPresion(float presion){
     return "La presion ahora es" + (this.presion + presion);
   }
+  @Override
+  public String toString() {
+    return "Clase Llanta de moto <LlantaDeMoto>";
+  }
 }
 
 

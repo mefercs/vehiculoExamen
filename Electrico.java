@@ -27,4 +27,8 @@ class Electrico extends Automovil{
   public Bateria getBateria() {
       return bateria;
   }
+  @Override
+  public String toString() {
+    return "Clase de Automovil electrico <Electrico>";
+  }
 }

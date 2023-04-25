@@ -32,7 +32,10 @@ class Pasajero{
       return "No se puede reclinar más de 5 niveles";
     }
     return "Tu asiento se reclinó al nivel" + reclinacion;
-
+  }
+  @Override
+  public String toString() {
+    return "Clase Pasajero <Pasajero>";
   }
 }
 

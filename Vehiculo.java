@@ -9,4 +9,8 @@ abstract class Vehiculo{
   public float acelerar(float magnitud){
     return this.aceleracion + magnitud;
   }
+  @Override
+  public String toString() {
+    return "Clase Vehiculo <Vehiculo>";
+  }
 }

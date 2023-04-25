@@ -18,6 +18,9 @@ class Bateria{
   public float getVoltaje() {
     return voltaje;
   }
-  
+  @Override
+  public String toString() {
+    return "Clase de Bateria <Bateria>";
+  } 
 }
 

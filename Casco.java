@@ -19,6 +19,10 @@ class Casco{
   public boolean quitarCasco(){
     return true;
   }
+  @Override
+  public String toString() {
+    return "Clase Casco <Casco>";
+  }
 }
 
 
